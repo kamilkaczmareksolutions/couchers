@@ -10,3 +10,11 @@ dependencies = [
     "pygithub>=2.8.1",
     "requests>=2.32.5",
 ]
+
+[tool.uv]
+constraint-dependencies = [
+    "urllib3>=2.7.0",
+    "cryptography>=50.0.1",
+    "PyJWT>=2.13.0",
+    "anyio>=4.14.2",
+]
