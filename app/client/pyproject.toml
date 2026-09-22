@@ -29,6 +29,12 @@ dev = [
     "twine",
 ]
 
+[tool.uv]
+constraint-dependencies = [
+    "urllib3>=2.7.0",
+    "cryptography>=50.0.1",
+]
+
 [tool.ruff]
 line-length = 120
 
