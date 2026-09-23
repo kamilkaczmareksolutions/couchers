@@ -4,6 +4,6 @@
     "interface": true,
     "type": true
   },
-  "ignoreDependencies": ["babel-preset-expo", "expo-updates"],
+  "ignoreDependencies": ["babel-preset-expo", "expo-updates", "image-size"],
   "tags": ["-lintignore"]
 }
