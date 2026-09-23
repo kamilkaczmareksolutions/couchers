@@ -14,7 +14,7 @@ const nextConfig = {
   productionBrowserSourceMaps: true,
   // ESM-only packages with no CommonJS entry point - Next.js (and next/jest) need to
   // transpile these themselves rather than treating them as pre-built node_modules.
-  transpilePackages: ["temporal-polyfill", "temporal-utils"],
+  transpilePackages: ["temporal-polyfill", "temporal-utils", "d3-color"],
   experimental: {
     // Trades slightly slower compiles for a lower webpack memory ceiling.
     webpackMemoryOptimizations: true,
