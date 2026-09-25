@@ -19,7 +19,7 @@
       "blog_link": "Blog",
       "nonprofit_note": "Couchers.org is a project of Couchers, Inc. a U.S. 501(c)(3) non-profit, tax-exempt organization.",
       "security_email_note": "This is a security email, you cannot unsubscribe from it.",
-      "notification_settings_link": "Manage notification preferences",
+      "notification_settings_link": "Manage notification settings",
       "do_not_email_link": "Do not email me (disables hosting)",
       "happy_couch_icon_caption": "The happy Couchers couch hopes you have a great rest of the day."
     }
@@ -270,6 +270,9 @@
   "moderator_note": {
     "subject": "You have received a moderator note",
     "purpose": "You have received an important note from the moderators. You must read and acknowledge it before continuing to use the platform.",
+    "purpose_with_note": "You have received an important note from the moderators:",
+    "acknowledge_request": "You must read and acknowledge this note before continuing to use the platform.",
+    "reply_instructions": "You can respond to the moderation team by replying to this email.",
     "view_action": "View moderator note"
   },
   "new_blog_post": {
