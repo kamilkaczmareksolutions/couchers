@@ -38,8 +38,20 @@ const StyledSelect = styled(Select, {
 })<StyledMuiSelectProps>(({ theme, displayMode }) => ({
   borderRadius: displayMode === "rect" ? theme.shape.borderRadius : displayMode === "icon" ? "50%" : 999,
   backgroundColor: "var(--mui-palette-grey-200)",
+  // Match the other top bar buttons so colours animate when toggling light/dark mode
+  transition: theme.transitions.create(["background-color", "border-color", "color"], {
+    duration: theme.transitions.duration.short,
+  }),
   "& .MuiOutlinedInput-notchedOutline": {
     borderColor: "var(--mui-palette-grey-300)",
+    transition: theme.transitions.create("border-color", {
+      duration: theme.transitions.duration.short,
+    }),
+  },
+  "& .MuiSelect-select .MuiSvgIcon-root": {
+    transition: theme.transitions.create(["color", "fill"], {
+      duration: theme.transitions.duration.short,
+    }),
   },
   "&:hover .MuiOutlinedInput-notchedOutline": {
     borderColor: "var(--mui-palette-grey-300)",
